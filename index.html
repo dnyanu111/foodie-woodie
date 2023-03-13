@@ -1,10 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Document</title>
-</head>
-<body>
-    <h1>Dnyaneshwari</h1>
-    <h2>Davkhar</h2>
-</body>
+<html>
+    <head>
+        <title>
+            Foodie-Woodie
+        </title>
+        <style type="text/css">
+            *{padding: 0;margin: 0;box-sizing: border-box;font-family: sans-serif;}
+            header{
+                width: 100%;
+                height: 100vh;
+                background-image:url(https://media.istockphoto.com/id/1192094401/photo/delicious-vegetarian-pizza-on-white.jpg?s=612x612&w=0&k=20&c=Qsm2ikAI0Oz5JMu2COCmAODV_5U7YZtipj8Ic7BtJF8=);
+                background-size: 50% 60%;
+                background-repeat: no-repeat;
+                background-position: bottom right;
+                position: relative;
+            }
+            nav{
+                width: 100%;
+                height: 0%;
+                padding: 60px 60px;
+                background: white;
+                color: black;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-shadow: 2px 0px 5px gray;
+            }
+            .logo{
+                font-weight: bold;
+                font-size: 2em;
+                letter-spacing: 2px;
+            }
+            .logo span{
+                color: brown;
+
+            }
+            .menu a {
+                text-decoration: none;
+                color: black;
+                padding: 10px 20px;
+
+            }
+            .menu a:last-child{
+                background: brown;
+                color: white;
+                border-radius: 8px;
+            }
+            .h-text{
+                position: absolute;
+                top:30%;
+                left:5%;
+                padding: 15px;
+            }
+            .h-text p{
+                color: #262626;
+                letter-spacing: 3px;
+                font-weight: bold;
+
+            }
+            .h-text h1{
+                font-size: 4em;
+                line-height: 1.5em;
+            }
+            .h-text h1 span{
+                color: brown;
+            }
+            .h-text h2{
+                font-size: 4em;
+                margin-bottom: 0.5em;
+            }
+            #Order{
+                text-decoration: none;
+                color: white;
+                background: brown;
+                border-radius: 8px;
+                padding: 10px 20px;
+            }
+            #dis{
+                text-decoration: none;
+                color: white;
+                background: #262626;
+                padding: 10px 20px;
+                border-radius: 8px;
+            }
+            #pizza{
+                position: absolute;
+                bottom: 5%;
+                left: 5%;
+            }
+            #pizza img{
+                transition: 0.4s ease;
+            }
+            #pizza img:hover{
+                transform: translate(-20px);
+            }
+            
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">F<span>OO</span>DIE 🍕 WOODIE</div>
+                <div class ="menu">
+                    
+                    <a href="#">Foods</a>
+                    <a href="#">Offers</a>
+                    <a href="#">Order</a>
+                    <a href="#">Delivery</a>
+                    <a href="#">Cart</a>
+                </div>
+            </nav>
+            <div class="h-text">
+                <p>Free Home Delivery</p>
+                <h1>Quality F<span>OO</span>DS</h1>
+                <h2>Pizza of the week</h2>
+                <a href="#"id="Order">Order Now!!</a>
+                <a href="#"id="dis">25% Off Hurry!!</a>
+            </div>
+            <div id="pizza">
+                <img src="https://www.yourhomebasedmom.com/wp-content/uploads/2009/06/Deep-Dish-Pizza-6.jpg"width="100">
+                <img src="https://www.yourhomebasedmom.com/wp-content/uploads/2009/06/Deep-Dish-Pizza-6.jpg"width="100">
+                <img src="https://www.yourhomebasedmom.com/wp-content/uploads/2009/06/Deep-Dish-Pizza-6.jpg"width="100">
+            </div>
+            
+        </header>
+    </body>
 </html>
